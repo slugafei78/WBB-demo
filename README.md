@@ -1,4 +1,4 @@
-# Value investment agent
+# WBB-demo
 
 Neuro-symbolic stack: symbolic **Fi** (DCF / P/S / PB-ROE), neural **Fm**, parameter synthesizer, **ViAgent** 编排与 LLM 子流程。标的目录名使用 slug：`cola`、`moutai`、`txrh`（行情 API 映射见 `value_investment_agent.config.symbols`）。
 
