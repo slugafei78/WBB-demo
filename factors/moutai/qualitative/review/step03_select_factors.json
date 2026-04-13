@@ -1,0 +1,55 @@
+{
+  "selected": [
+    {
+      "factor_id": "market_potential",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 1
+    },
+    {
+      "factor_id": "pricing_power",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 2
+    },
+    {
+      "factor_id": "branding_power",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 3
+    },
+    {
+      "factor_id": "management_quality",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 4
+    },
+    {
+      "factor_id": "strategy_soundness",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 5
+    },
+    {
+      "factor_id": "competitive_position",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 6
+    },
+    {
+      "factor_id": "industry_position",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 7
+    },
+    {
+      "factor_id": "shareholder_reward",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 8
+    },
+    {
+      "factor_id": "balance_sheet_health",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 9
+    },
+    {
+      "factor_id": "cash_flow_health",
+      "reason": "固定为基本面因子池前 10 项；Step 4/5 由 data/moutai/analysis 下 Markdown 主证据支撑。",
+      "rank": 10
+    }
+  ],
+  "audit_note": "fixed_top10_user_analysis_md"
+}

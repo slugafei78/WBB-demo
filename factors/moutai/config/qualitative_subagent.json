@@ -1,0 +1,12 @@
+{
+  "schema_version": "2026-04-08",
+  "symbol": "moutai",
+  "company_display_name": "贵州茅台",
+  "top_n_qualitative_factors": 10,
+  "lookback_years_financials": 6,
+  "fundamental_factors_json": "config/fundamental_factors.json",
+  "output_dir": "factors/moutai/qualitative",
+  "llm": "auto",
+  "human_dialogue_path": "data/moutai/analysis/moutai_fundamental_analysis.md",
+  "doc": "该股专用参数。五步提示词默认使用仓库共享目录 prompts/qualitative_subagent/；若需单独一套 step_*.md，可在此增加可选字段 prompts_dir（相对仓库根的路径）。可选 human_dialogue_path：相对仓库根的 .md/.txt/.docx，内容为与网页版模型的人工对话或研究笔记，Step 4/5 会优先采信。"
+}

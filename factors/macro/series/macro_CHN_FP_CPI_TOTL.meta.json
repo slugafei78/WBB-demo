@@ -1,0 +1,14 @@
+{
+  "country_code": "CHN",
+  "country_name": "China",
+  "series_code": "FP.CPI.TOTL",
+  "series_name": "Consumer price index (2010 = 100)",
+  "source_file": "data\\macro\\raw\\Macro-indicators.csv",
+  "quarterly_mode": "repeat_annual_value",
+  "catalog": {
+    "indicator_name": "Consumer price index (2010 = 100)",
+    "unit": "index (2010 = 100)",
+    "periodicity": "Annual",
+    "long_definition": "Index of the prices of consumption goods and services, as compared to a certain reference period (2010=100)."
+  }
+}

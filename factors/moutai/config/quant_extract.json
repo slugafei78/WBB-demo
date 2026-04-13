@@ -1,0 +1,18 @@
+{
+  "schema_version": "2026-04-08",
+  "symbol": "moutai",
+  "lookback_years": 5,
+  "manual_quarterly_csv": "data/moutai/raw/financials/quarterly_financials_manual.csv",
+  "net_profit_quarterly_csv": "data/moutai/raw/financials/net_profit_quarterly.csv",
+  "use_akshare": true,
+  "akshare_stock_code": "600519",
+  "akshare_em_symbol": "SH600519",
+  "em_profit_quarterly_csv": "data/moutai/raw/financials/em/profit_sheet_quarterly_em.csv",
+  "em_cashflow_quarterly_csv": "data/moutai/raw/financials/em/cash_flow_sheet_quarterly_em.csv",
+  "em_balance_report_csv": "data/moutai/raw/financials/em/balance_sheet_by_report_em.csv",
+  "prefer_em_downloaded_csv": true,
+  "pdf_glob": "data/moutai/raw/financials/*.pdf",
+  "pdf_extracted_text_dir": "data/moutai/raw/financials/_extracted_text",
+  "output_csv": "factors/moutai/quantitative/moutai_fundamental_quant_quarterly.csv",
+  "doc": "原始东财宽表请先 download_moutai_quantitative_raw 落到 data/moutai/raw/financials/em/；合并长表仍输出到 output_csv（factors）。多源合并：manual > net_profit > data 中东财 CSV（若 prefer_em_downloaded_csv）> 东财 API > 新浪 > Yahoo。全局因子见 config/fundamental_factors.json。"
+}

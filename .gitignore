@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Secrets (never commit)
+.env
+.env.txt
+.env.local
+
+# Optional: large raw files under data/*/raw/ (uncomment if needed)
+data/*/raw/**/*.pdf
+data/*/raw/**/_extracted_text/**
+data/*/raw/**/em/*.csv
+data/*/raw/**/sina/*.csv
+data/*/raw/**/daily_*_yahoo.csv
+data/*/raw/**/*.htm
+data/*/raw/**/*.html

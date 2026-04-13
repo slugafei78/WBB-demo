@@ -1,0 +1,14 @@
+{
+  "country_code": "USA",
+  "country_name": "United States",
+  "series_code": "NY.GDP.MKTP.CN",
+  "series_name": "GDP (current LCU)",
+  "source_file": "data\\macro\\raw\\Macro-indicators.csv",
+  "quarterly_mode": "repeat_annual_value",
+  "catalog": {
+    "indicator_name": "GDP (current LCU)",
+    "unit": "current LCU",
+    "periodicity": "Annual",
+    "long_definition": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This series is expressed in local currency units."
+  }
+}

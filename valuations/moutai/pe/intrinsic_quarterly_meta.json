@@ -1,0 +1,8 @@
+{
+  "symbol": "moutai",
+  "base_pe_reference": 20,
+  "macro_deposit_csv": "factors/macro/series/macro_CHN_FR_INR_DPST.csv",
+  "note": "PE 季度内在价值：读 factors 层定量/定性/宏观序列；公式见 value_investment_agent/valuation/pe_macro_qual.py 与 moutai_experiment/pe_intrinsic_quarterly.py。earnings 列须为单季净利润。",
+  "rows": 18,
+  "output_csv": "valuations/moutai/pe/intrinsic_quarterly.csv"
+}

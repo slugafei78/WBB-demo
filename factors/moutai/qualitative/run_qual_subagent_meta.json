@@ -1,0 +1,17 @@
+{
+  "output_dir": "factors\\moutai\\qualitative",
+  "llm_resolved": "gemini",
+  "from_step": 4,
+  "to_step": 5,
+  "top_n_qualitative_factors": 10,
+  "review_files": [
+    "factors\\moutai\\qualitative\\review\\step01_business_model.md",
+    "factors\\moutai\\qualitative\\review\\step02_financials_overview.md",
+    "factors\\moutai\\qualitative\\review\\step03_select_factors.json",
+    "factors\\moutai\\qualitative\\review\\step03_select_factors_raw.json",
+    "factors\\moutai\\qualitative\\review\\step04_evidence_matrix.json",
+    "factors\\moutai\\qualitative\\review\\step04_evidence_raw.json",
+    "factors\\moutai\\qualitative\\review\\step05_scores.json",
+    "factors\\moutai\\qualitative\\review\\step05_scores_raw.json"
+  ]
+}

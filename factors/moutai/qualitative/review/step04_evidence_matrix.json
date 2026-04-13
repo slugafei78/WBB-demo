@@ -1,0 +1,1925 @@
+{
+  "matrix": [
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2020年: 疫情影响，低端白酒需求萎缩，但茅台韧性凸显。茅台的增长逻辑不是“扩容”，而是“挤占”市场份额。",
+      "data_snippet": "全国白酒总产量 (万吨): 741 (2020年); 营业总收入 (亿元): 980 (2020年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "茅台的出厂价调整极度谨慎，2020年飞天茅台出厂价维持在969元，市场更关注通过提高直销比例来变相提升平均每瓶的变现能力。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2020年); 净利润率 (%): 47.6% (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台在中国不仅是饮料，更是身份的防伪标签，这种“不可替代性”构成了特许经营权。疫情期间，品牌韧性凸显。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2020年疫情期间，公司展现出经营韧性，并延续2019年开始的直销渠道改革，以应对市场变化。",
+      "data_snippet": "直销渠道改革开始 (2019年备注，延续至2020年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2020年疫情背景下，通过直销渠道改革和产品结构优化（飞天是定海神针，系列酒是第二曲线）来维持增长和市场地位。",
+      "data_snippet": "茅台酒营收 (亿元): 848 (2020年); 系列酒营收 (亿元): 100 (2020年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台的商业模式本质上是“把水变成金子”，极低成本与极高售价带来高毛利率和净利率。存货随基酒产能量增，周转率稳定。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.38 (2020年); 五粮液 (库存周转率): 0.98 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "industry_position",
+      "text_evidence": "茅台商业模式被公认为中国乃至全球消费品行业的“天花板”，净利润率持续攀升，显示其在行业中的主导地位。",
+      "data_snippet": "净利润率 (%): 47.6% (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "茅台采取了最符合股东利益的动作——高额分红，2020年分红金额为242亿元。",
+      "data_snippet": "分红金额 (含现金): 242 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "茅台账上常年躺着数千亿现金，几乎没有有息负债，资产负债率极低，存货价值随基酒产能量增。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,467 (2020年); 存货账面价值 (亿元): 289 (2020年); 资产负债率 (%): 21.4% (2020年); 有息负债 (亿元): 0 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-06-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "茅台的经营现金流与净利润高度匹配，OCF/净利润长期大于1，且资本开支极低，自由现金流强大。",
+      "data_snippet": "OCF (经营现金流): 516 (2020年); CapEx (资本开支): 21 (2020年); FCF (自由现金流): 495 (2020年); OCF/净利润: 1.11 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2020年: 疫情影响，低端白酒需求萎缩，但茅台韧性凸显。茅台的增长逻辑不是“扩容”，而是“挤占”市场份额。",
+      "data_snippet": "全国白酒总产量 (万吨): 741 (2020年); 营业总收入 (亿元): 980 (2020年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "茅台的出厂价调整极度谨慎，2020年飞天茅台出厂价维持在969元，市场更关注通过提高直销比例来变相提升平均每瓶的变现能力。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2020年); 净利润率 (%): 47.6% (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台在中国不仅是饮料，更是身份的防伪标签，这种“不可替代性”构成了特许经营权。疫情期间，品牌韧性凸显。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2020年疫情期间，公司展现出经营韧性，并延续2019年开始的直销渠道改革，以应对市场变化。",
+      "data_snippet": "直销渠道改革开始 (2019年备注，延续至2020年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2020年疫情背景下，通过直销渠道改革和产品结构优化（飞天是定海神针，系列酒是第二曲线）来维持增长和市场地位。",
+      "data_snippet": "茅台酒营收 (亿元): 848 (2020年); 系列酒营收 (亿元): 100 (2020年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台的商业模式本质上是“把水变成金子”，极低成本与极高售价带来高毛利率和净利率。存货随基酒产能量增，周转率稳定。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.38 (2020年); 五粮液 (库存周转率): 0.98 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "industry_position",
+      "text_evidence": "茅台商业模式被公认为中国乃至全球消费品行业的“天花板”，净利润率持续攀升，显示其在行业中的主导地位。",
+      "data_snippet": "净利润率 (%): 47.6% (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "茅台采取了最符合股东利益的动作——高额分红，2020年分红金额为242亿元。",
+      "data_snippet": "分红金额 (含现金): 242 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "茅台账上常年躺着数千亿现金，几乎没有有息负债，资产负债率极低，存货价值随基酒产能量增。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,467 (2020年); 存货账面价值 (亿元): 289 (2020年); 资产负债率 (%): 21.4% (2020年); 有息负债 (亿元): 0 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-09-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "茅台的经营现金流与净利润高度匹配，OCF/净利润长期大于1，且资本开支极低，自由现金流强大。",
+      "data_snippet": "OCF (经营现金流): 516 (2020年); CapEx (资本开支): 21 (2020年); FCF (自由现金流): 495 (2020年); OCF/净利润: 1.11 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2020年: 疫情影响，低端白酒需求萎缩，但茅台韧性凸显。茅台的增长逻辑不是“扩容”，而是“挤占”市场份额。",
+      "data_snippet": "全国白酒总产量 (万吨): 741 (2020年); 营业总收入 (亿元): 980 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "茅台的出厂价调整极度谨慎，2020年飞天茅台出厂价维持在969元，市场更关注通过提高直销比例来变相提升平均每瓶的变现能力。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2020年); 净利润率 (%): 47.6% (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台在中国不仅是饮料，更是身份的防伪标签，这种“不可替代性”构成了特许经营权。疫情期间，品牌韧性凸显。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2020年疫情期间，公司展现出经营韧性，并延续2019年开始的直销渠道改革，以应对市场变化。",
+      "data_snippet": "直销渠道改革开始 (2019年备注，延续至2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2020年疫情背景下，通过直销渠道改革和产品结构优化（飞天是定海神针，系列酒是第二曲线）来维持增长和市场地位。",
+      "data_snippet": "茅台酒营收 (亿元): 848 (2020年); 系列酒营收 (亿元): 100 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台的商业模式本质上是“把水变成金子”，极低成本与极高售价带来高毛利率和净利率。存货随基酒产能量增，周转率稳定。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.38 (2020年); 五粮液 (库存周转率): 0.98 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "industry_position",
+      "text_evidence": "茅台商业模式被公认为中国乃至全球消费品行业的“天花板”，净利润率持续攀升，显示其在行业中的主导地位。",
+      "data_snippet": "净利润率 (%): 47.6% (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "茅台采取了最符合股东利益的动作——高额分红，2020年分红金额为242亿元。",
+      "data_snippet": "分红金额 (含现金): 242 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "茅台账上常年躺着数千亿现金，几乎没有有息负债，资产负债率极低，存货价值随基酒产能量增。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,467 (2020年); 存货账面价值 (亿元): 289 (2020年); 资产负债率 (%): 21.4% (2020年); 有息负债 (亿元): 0 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2020-12-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "茅台的经营现金流与净利润高度匹配，OCF/净利润长期大于1，且资本开支极低，自由现金流强大。",
+      "data_snippet": "OCF (经营现金流): 516 (2020年); CapEx (资本开支): 21 (2020年); FCF (自由现金流): 495 (2020年); OCF/净利润: 1.11 (2020年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2021年公司营收破千亿大关，行业复苏，茅台酒需求持续增长，系列酒也快速崛起。",
+      "data_snippet": "营业总收入 (亿元): 1,095 (2021年); 归属于上市公司股东的净利润: 13,954,462,085.61 (2021年第一季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2021年飞天茅台出厂价维持在969元，公司通过渠道扁平化（i茅台和直营店）剥夺经销商差价，提升净利润率。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2021年); 净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台品牌持续强势，营收破千亿大关，显示其在消费者心中的地位和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "management_quality",
+      "text_evidence": "公司制定“十四五”发展规划，确定“五线”发展道路，全面开展顶层设计，构建企业治理新体系，开启高质强业新篇章。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2021年营收破千亿，产品结构上茅台酒仍是定海神针，系列酒营收快速增长，显示其多品牌战略的有效性。",
+      "data_snippet": "茅台酒营收 (亿元): 933 (2021年); 系列酒营收 (亿元): 126 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台拥有独一无二的原产地域保护、不可复制的微生物菌落群、传承千年的独特酿造工艺、长期贮存的优质基酒资源所组成的“四个核心势能”。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.40 (2021年); 五粮液 (库存周转率): 1.03 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司全年实现营业总收入1094.64亿元，同比增长11.71%；利润总额745.28亿元，同比增长12.59%；归属于母公司所有者的净利润524.60亿元，同比增长12.34%，各项指标均保持两位数增长。",
+      "data_snippet": "净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2021年公司分红金额为272+275亿元（含特别分红），显示公司持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 272+275* (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备极度充裕，资产负债率持续降低，且无有息负债，存货价值持续增长。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,786 (2021年); 存货账面价值 (亿元): 333 (2021年); 资产负债率 (%): 16.0% (2021年); 有息负债 (亿元): 0 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-03-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2021年第一季度经营活动产生的现金流量净额为负，主要是财务公司存放同业款项增加及收到的税费返还减少，属于会计处理波动，不影响经营基本面。",
+      "data_snippet": "经营活动产生的现金流量净额: -1,484,892,858.66 (2021年第一季度)",
+      "source": "pdf",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2021年公司营收破千亿大关，行业复苏，茅台酒需求持续增长，系列酒也快速崛起。",
+      "data_snippet": "营业总收入 (亿元): 1,095 (2021年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2021年飞天茅台出厂价维持在969元，公司通过渠道扁平化（i茅台和直营店）剥夺经销商差价，提升净利润率。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2021年); 净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台品牌持续强势，营收破千亿大关，显示其在消费者心中的地位和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "management_quality",
+      "text_evidence": "公司制定“十四五”发展规划，确定“五线”发展道路，全面开展顶层设计，构建企业治理新体系，开启高质强业新篇章。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2021年营收破千亿，产品结构上茅台酒仍是定海神针，系列酒营收快速增长，显示其多品牌战略的有效性。",
+      "data_snippet": "茅台酒营收 (亿元): 933 (2021年); 系列酒营收 (亿元): 126 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台拥有独一无二的原产地域保护、不可复制的微生物菌落群、传承千年的独特酿造工艺、长期贮存的优质基酒资源所组成的“四个核心势能”。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.40 (2021年); 五粮液 (库存周转率): 1.03 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司全年实现营业总收入1094.64亿元，同比增长11.71%；利润总额745.28亿元，同比增长12.59%；归属于母公司所有者的净利润524.60亿元，同比增长12.34%，各项指标均保持两位数增长。",
+      "data_snippet": "净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2021年公司分红金额为272+275亿元（含特别分红），显示公司持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 272+275* (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备极度充裕，资产负债率持续降低，且无有息负债，存货价值持续增长。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,786 (2021年); 存货账面价值 (亿元): 333 (2021年); 资产负债率 (%): 16.0% (2021年); 有息负债 (亿元): 0 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-06-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2021年第二季度经营活动产生的现金流量净额为232.04亿元，显示公司经营活动现金流强劲。",
+      "data_snippet": "经营活动产生的现金流量净额: 23,204,363,591.63 (2021年第二季度)",
+      "source": "pdf",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2021年公司营收破千亿大关，行业复苏，茅台酒需求持续增长，系列酒也快速崛起。",
+      "data_snippet": "营业总收入 (亿元): 1,095 (2021年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2021年飞天茅台出厂价维持在969元，公司通过渠道扁平化（i茅台和直营店）剥夺经销商差价，提升净利润率。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2021年); 净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台品牌持续强势，营收破千亿大关，显示其在消费者心中的地位和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "management_quality",
+      "text_evidence": "公司制定“十四五”发展规划，确定“五线”发展道路，全面开展顶层设计，构建企业治理新体系，开启高质强业新篇章。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2021年营收破千亿，产品结构上茅台酒仍是定海神针，系列酒营收快速增长，显示其多品牌战略的有效性。",
+      "data_snippet": "茅台酒营收 (亿元): 933 (2021年); 系列酒营收 (亿元): 126 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台拥有独一无二的原产地域保护、不可复制的微生物菌落群、传承千年的独特酿造工艺、长期贮存的优质基酒资源所组成的“四个核心势能”。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.40 (2021年); 五粮液 (库存周转率): 1.03 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司全年实现营业总收入1094.64亿元，同比增长11.71%；利润总额745.28亿元，同比增长12.59%；归属于母公司所有者的净利润524.60亿元，同比增长12.34%，各项指标均保持两位数增长。",
+      "data_snippet": "净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2021年公司分红金额为272+275亿元（含特别分红），显示公司持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 272+275* (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备极度充裕，资产负债率持续降低，且无有息负债，存货价值持续增长。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,786 (2021年); 存货账面价值 (亿元): 333 (2021年); 资产负债率 (%): 16.0% (2021年); 有息负债 (亿元): 0 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-09-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2021年第三季度经营活动产生的现金流量净额为150.33亿元，显示公司经营活动现金流强劲。",
+      "data_snippet": "经营活动产生的现金流量净额: 15,032,826,622.95 (2021年第三季度)",
+      "source": "pdf",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2021年公司营收破千亿大关，行业复苏，茅台酒需求持续增长，系列酒也快速崛起。",
+      "data_snippet": "营业总收入 (亿元): 1,095 (2021年); 归属于上市公司股东的净利润: 15,193,970,218.19 (2021年第四季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2021年飞天茅台出厂价维持在969元，公司通过渠道扁平化（i茅台和直营店）剥夺经销商差价，提升净利润率。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2021年); 净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "branding_power",
+      "text_evidence": "茅台品牌持续强势，营收破千亿大关，显示其在消费者心中的地位和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "management_quality",
+      "text_evidence": "公司制定“十四五”发展规划，确定“五线”发展道路，全面开展顶层设计，构建企业治理新体系，开启高质强业新篇章。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "公司在2021年营收破千亿，产品结构上茅台酒仍是定海神针，系列酒营收快速增长，显示其多品牌战略的有效性。",
+      "data_snippet": "茅台酒营收 (亿元): 933 (2021年); 系列酒营收 (亿元): 126 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台拥有独一无二的原产地域保护、不可复制的微生物菌落群、传承千年的独特酿造工艺、长期贮存的优质基酒资源所组成的“四个核心势能”。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.40 (2021年); 五粮液 (库存周转率): 1.03 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司全年实现营业总收入1094.64亿元，同比增长11.71%；利润总额745.28亿元，同比增长12.59%；归属于母公司所有者的净利润524.60亿元，同比增长12.34%，各项指标均保持两位数增长。",
+      "data_snippet": "净利润率 (%): 47.9% (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2021年公司分红金额为272+275亿元（含特别分红），显示公司持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 272+275* (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备极度充裕，资产负债率持续降低，且无有息负债，存货价值持续增长。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,786 (2021年); 存货账面价值 (亿元): 333 (2021年); 资产负债率 (%): 16.0% (2021年); 有息负债 (亿元): 0 (2021年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2021-12-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2021年第四季度经营活动产生的现金流量净额为272.76亿元，全年经营活动产生的现金流量净额为640.29亿元，显示公司经营活动现金流强劲。",
+      "data_snippet": "经营活动产生的现金流量净额: 27,276,378,791.45 (2021年第四季度); OCF (经营现金流): 640 (2021年); CapEx (资本开支): 23 (2021年); FCF (自由现金流): 617 (2021年); OCF/净利润: 1.22 (2021年)",
+      "source": "pdf",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2022年i茅台上线，公司营收和利润持续增长，但全国白酒总产量持续下滑，行业进入“存量竞争”。",
+      "data_snippet": "全国白酒总产量 (万吨): 671 (2022年); 营业总收入 (亿元): 1,276 (2022年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2022年飞天茅台出厂价维持在969元，i茅台上线通过直销模式提升平均每瓶的变现能力，净利润率持续提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2022年); 净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台上线，强化消费者触达，进一步巩固品牌形象和市场地位。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2022年i茅台上线，是公司推进直销与数字化渠道、强化消费者触达的重要战略节点。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台上线是公司直销化战略的关键一步，旨在回收渠道利润，掌握终端数据，并作为品牌“去金融化”的缓冲垫。",
+      "data_snippet": "i茅台上线 (2022年备注)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台酒营收持续增长，系列酒茅台1935爆红，拉动产能需求，显示公司在不同价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.39 (2022年); 五粮液 (库存周转率): 1.05 (2022年); 茅台酒营收 (亿元): 1,077 (2022年); 系列酒营收 (亿元): 159 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司营收和净利润持续增长，净利润率接近50%，i茅台上线进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2022年公司分红金额为325+275亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 325+275* (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备充裕，资产负债率极低，无有息负债，存货持续增长，加码技改。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,733 (2022年); 存货账面价值 (亿元): 388 (2022年); 资产负债率 (%): 15.1% (2022年); 有息负债 (亿元): 0 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-03-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2022年OCF骤降主要是由于财务公司存放同业款项增加及收到的税费返还减少，属于会计处理波动，不影响经营基本面。",
+      "data_snippet": "OCF (经营现金流): 367 (2022年); CapEx (资本开支): 31 (2022年); FCF (自由现金流): 336 (2022年); OCF/净利润: 0.58 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2022年i茅台上线，公司营收和利润持续增长，但全国白酒总产量持续下滑，行业进入“存量竞争”。",
+      "data_snippet": "全国白酒总产量 (万吨): 671 (2022年); 营业总收入 (亿元): 1,276 (2022年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2022年飞天茅台出厂价维持在969元，i茅台上线通过直销模式提升平均每瓶的变现能力，净利润率持续提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2022年); 净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台上线，强化消费者触达，进一步巩固品牌形象和市场地位。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2022年i茅台上线，是公司推进直销与数字化渠道、强化消费者触达的重要战略节点。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台上线是公司直销化战略的关键一步，旨在回收渠道利润，掌握终端数据，并作为品牌“去金融化”的缓冲垫。",
+      "data_snippet": "i茅台上线 (2022年备注)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台酒营收持续增长，系列酒茅台1935爆红，拉动产能需求，显示公司在不同价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.39 (2022年); 五粮液 (库存周转率): 1.05 (2022年); 茅台酒营收 (亿元): 1,077 (2022年); 系列酒营收 (亿元): 159 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司营收和净利润持续增长，净利润率接近50%，i茅台上线进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2022年公司分红金额为325+275亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 325+275* (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备充裕，资产负债率极低，无有息负债，存货持续增长，加码技改。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,733 (2022年); 存货账面价值 (亿元): 388 (2022年); 资产负债率 (%): 15.1% (2022年); 有息负债 (亿元): 0 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-06-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2022年OCF骤降主要是由于财务公司存放同业款项增加及收到的税费返还减少，属于会计处理波动，不影响经营基本面。",
+      "data_snippet": "OCF (经营现金流): 367 (2022年); CapEx (资本开支): 31 (2022年); FCF (自由现金流): 336 (2022年); OCF/净利润: 0.58 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2022年i茅台上线，公司营收和利润持续增长，但全国白酒总产量持续下滑，行业进入“存量竞争”。",
+      "data_snippet": "全国白酒总产量 (万吨): 671 (2022年); 营业总收入 (亿元): 1,276 (2022年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2022年飞天茅台出厂价维持在969元，i茅台上线通过直销模式提升平均每瓶的变现能力，净利润率持续提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2022年); 净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台上线，强化消费者触达，进一步巩固品牌形象和市场地位。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2022年i茅台上线，是公司推进直销与数字化渠道、强化消费者触达的重要战略节点。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台上线是公司直销化战略的关键一步，旨在回收渠道利润，掌握终端数据，并作为品牌“去金融化”的缓冲垫。",
+      "data_snippet": "i茅台上线 (2022年备注)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台酒营收持续增长，系列酒茅台1935爆红，拉动产能需求，显示公司在不同价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.39 (2022年); 五粮液 (库存周转率): 1.05 (2022年); 茅台酒营收 (亿元): 1,077 (2022年); 系列酒营收 (亿元): 159 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司营收和净利润持续增长，净利润率接近50%，i茅台上线进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2022年公司分红金额为325+275亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 325+275* (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备充裕，资产负债率极低，无有息负债，存货持续增长，加码技改。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,733 (2022年); 存货账面价值 (亿元): 388 (2022年); 资产负债率 (%): 15.1% (2022年); 有息负债 (亿元): 0 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-09-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2022年OCF骤降主要是由于财务公司存放同业款项增加及收到的税费返还减少，属于会计处理波动，不影响经营基本面。",
+      "data_snippet": "OCF (经营现金流): 367 (2022年); CapEx (资本开支): 31 (2022年); FCF (自由现金流): 336 (2022年); OCF/净利润: 0.58 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2022年i茅台上线，公司营收和利润持续增长，但全国白酒总产量持续下滑，行业进入“存量竞争”。",
+      "data_snippet": "全国白酒总产量 (万吨): 671 (2022年); 营业总收入 (亿元): 1,276 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2022年飞天茅台出厂价维持在969元，i茅台上线通过直销模式提升平均每瓶的变现能力，净利润率持续提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 969 (2022年); 净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台上线，强化消费者触达，进一步巩固品牌形象和市场地位。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2022年i茅台上线，是公司推进直销与数字化渠道、强化消费者触达的重要战略节点。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台上线是公司直销化战略的关键一步，旨在回收渠道利润，掌握终端数据，并作为品牌“去金融化”的缓冲垫。",
+      "data_snippet": "i茅台上线 (2022年备注)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "茅台酒营收持续增长，系列酒茅台1935爆红，拉动产能需求，显示公司在不同价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.39 (2022年); 五粮液 (库存周转率): 1.05 (2022年); 茅台酒营收 (亿元): 1,077 (2022年); 系列酒营收 (亿元): 159 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司营收和净利润持续增长，净利润率接近50%，i茅台上线进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.2% (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2022年公司分红金额为325+275亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 325+275* (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备充裕，资产负债率极低，无有息负债，存货持续增长，加码技改。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,733 (2022年); 存货账面价值 (亿元): 388 (2022年); 资产负债率 (%): 15.1% (2022年); 有息负债 (亿元): 0 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2022-12-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2022年OCF骤降主要是由于财务公司存放同业款项增加及收到的税费返还减少，属于会计处理波动，不影响经营基本面。",
+      "data_snippet": "OCF (经营现金流): 367 (2022年); CapEx (资本开支): 31 (2022年); FCF (自由现金流): 336 (2022年); OCF/净利润: 0.58 (2022年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2023年公司再度提价20%，营收和利润持续增长，显示市场对高端白酒的需求韧性。",
+      "data_snippet": "营业总收入 (亿元): 1,506 (2023年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2023年11月1日起，公司再度提价20%，飞天茅台出厂价从969元调至1169元，体现了公司强大的定价权。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2023年); 净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "branding_power",
+      "text_evidence": "公司再度提价20%，市场仍能接受，显示其强大的品牌溢价能力和消费者忠诚度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "management_quality",
+      "text_evidence": "公司在2023年11月再度提价，是管理层基于市场供需和品牌价值的战略决策，旨在增厚营收与利润。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2023年再度提价20%是公司重要的提价动作，有利于增厚营收与利润、体现定价权。同时，茅台酒和系列酒营收均有显著增长。",
+      "data_snippet": "茅台酒营收 (亿元): 1,266 (2023年); 系列酒营收 (亿元): 206 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司再度提价20%仍能保持增长，显示其在高端白酒市场的绝对领导地位和强大的护城河。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.37 (2023年); 五粮液 (库存周转率): 1.01 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司再度提价20%，营收和净利润持续增长，净利润率接近50%，进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2023年公司分红金额为388+240亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 388+240* (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备持续增长，资产负债率极低，无有息负债，存货价值随成本增加上升。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,935 (2023年); 存货账面价值 (亿元): 424 (2023年); 资产负债率 (%): 14.8% (2023年); 有息负债 (亿元): 0 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-03-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2023年经营现金流恢复强劲，OCF/净利润接近1，显示公司现金回补能力优秀。",
+      "data_snippet": "OCF (经营现金流): 666 (2023年); CapEx (资本开支): 38 (2023年); FCF (自由现金流): 628 (2023年); OCF/净利润: 0.89 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2023年公司再度提价20%，营收和利润持续增长，显示市场对高端白酒的需求韧性。",
+      "data_snippet": "营业总收入 (亿元): 1,506 (2023年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2023年11月1日起，公司再度提价20%，飞天茅台出厂价从969元调至1169元，体现了公司强大的定价权。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2023年); 净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "branding_power",
+      "text_evidence": "公司再度提价20%，市场仍能接受，显示其强大的品牌溢价能力和消费者忠诚度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "management_quality",
+      "text_evidence": "公司在2023年11月再度提价，是管理层基于市场供需和品牌价值的战略决策，旨在增厚营收与利润。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2023年再度提价20%是公司重要的提价动作，有利于增厚营收与利润、体现定价权。同时，茅台酒和系列酒营收均有显著增长。",
+      "data_snippet": "茅台酒营收 (亿元): 1,266 (2023年); 系列酒营收 (亿元): 206 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司再度提价20%仍能保持增长，显示其在高端白酒市场的绝对领导地位和强大的护城河。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.37 (2023年); 五粮液 (库存周转率): 1.01 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司再度提价20%，营收和净利润持续增长，净利润率接近50%，进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2023年公司分红金额为388+240亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 388+240* (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备持续增长，资产负债率极低，无有息负债，存货价值随成本增加上升。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,935 (2023年); 存货账面价值 (亿元): 424 (2023年); 资产负债率 (%): 14.8% (2023年); 有息负债 (亿元): 0 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-06-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2023年经营现金流恢复强劲，OCF/净利润接近1，显示公司现金回补能力优秀。",
+      "data_snippet": "OCF (经营现金流): 666 (2023年); CapEx (资本开支): 38 (2023年); FCF (自由现金流): 628 (2023年); OCF/净利润: 0.89 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2023年公司再度提价20%，营收和利润持续增长，显示市场对高端白酒的需求韧性。",
+      "data_snippet": "营业总收入 (亿元): 1,506 (2023年)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2023年11月1日起，公司再度提价20%，飞天茅台出厂价从969元调至1169元，体现了公司强大的定价权。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2023年); 净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "branding_power",
+      "text_evidence": "公司再度提价20%，市场仍能接受，显示其强大的品牌溢价能力和消费者忠诚度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "management_quality",
+      "text_evidence": "公司在2023年11月再度提价，是管理层基于市场供需和品牌价值的战略决策，旨在增厚营收与利润。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2023年再度提价20%是公司重要的提价动作，有利于增厚营收与利润、体现定价权。同时，茅台酒和系列酒营收均有显著增长。",
+      "data_snippet": "茅台酒营收 (亿元): 1,266 (2023年); 系列酒营收 (亿元): 206 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司再度提价20%仍能保持增长，显示其在高端白酒市场的绝对领导地位和强大的护城河。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.37 (2023年); 五粮液 (库存周转率): 1.01 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司再度提价20%，营收和净利润持续增长，净利润率接近50%，进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2023年公司分红金额为388+240亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 388+240* (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备持续增长，资产负债率极低，无有息负债，存货价值随成本增加上升。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,935 (2023年); 存货账面价值 (亿元): 424 (2023年); 资产负债率 (%): 14.8% (2023年); 有息负债 (亿元): 0 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-09-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2023年经营现金流恢复强劲，OCF/净利润接近1，显示公司现金回补能力优秀。",
+      "data_snippet": "OCF (经营现金流): 666 (2023年); CapEx (资本开支): 38 (2023年); FCF (自由现金流): 628 (2023年); OCF/净利润: 0.89 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2023年公司再度提价20%，营收和利润持续增长，显示市场对高端白酒的需求韧性。",
+      "data_snippet": "营业总收入 (亿元): 1,506 (2023年); PARENT_NETPROFIT: 3.053719e+10 (2023年第四季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2023年11月1日起，公司再度提价20%，飞天茅台出厂价从969元调至1169元，体现了公司强大的定价权。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2023年); 净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "branding_power",
+      "text_evidence": "公司再度提价20%，市场仍能接受，显示其强大的品牌溢价能力和消费者忠诚度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "management_quality",
+      "text_evidence": "公司在2023年11月再度提价，是管理层基于市场供需和品牌价值的战略决策，旨在增厚营收与利润。",
+      "data_snippet": null,
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2023年再度提价20%是公司重要的提价动作，有利于增厚营收与利润、体现定价权。同时，茅台酒和系列酒营收均有显著增长。",
+      "data_snippet": "茅台酒营收 (亿元): 1,266 (2023年); 系列酒营收 (亿元): 206 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司再度提价20%仍能保持增长，显示其在高端白酒市场的绝对领导地位和强大的护城河。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.37 (2023年); 五粮液 (库存周转率): 1.01 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司再度提价20%，营收和净利润持续增长，净利润率接近50%，进一步巩固其行业领导地位。",
+      "data_snippet": "净利润率 (%): 49.6% (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2023年公司分红金额为388+240亿元（含特别分红），持续高额回报股东。",
+      "data_snippet": "分红金额 (含现金): 388+240* (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金储备持续增长，资产负债率极低，无有息负债，存货价值随成本增加上升。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 1,935 (2023年); 存货账面价值 (亿元): 424 (2023年); 资产负债率 (%): 14.8% (2023年); 有息负债 (亿元): 0 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2023-12-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2023年经营现金流恢复强劲，OCF/净利润接近1，显示公司现金回补能力优秀。",
+      "data_snippet": "OCF (经营现金流): 666 (2023年); CapEx (资本开支): 38 (2023年); FCF (自由现金流): 628 (2023年); OCF/净利润: 0.89 (2023年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2024年公司净利首破50%，营收持续增长，但全国白酒总产量探底，行业进入存量竞争。",
+      "data_snippet": "全国白酒总产量 (万吨): 449 (2024年); 营业总收入 (亿元): 1,709 (2024年); PARENT_NETPROFIT: 2.406526e+10 (2024年第一季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2024年飞天茅台出厂价维持在1169元，净利润率首次突破50%，主要得益于渠道扁平化和直销比例提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2024年); 净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "branding_power",
+      "text_evidence": "净利润率首次突破50%，显示茅台品牌强大的溢价能力和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2024年基酒产量同比下降1.57%，是茅台管理层为了“释放供给稀缺预期”，维持市场价格刚性的主动调减策略。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2024年基酒减产是公司战略转向的信号，从“量增”到“价增”，通过产品结构调整和渠道回收提升利润。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年); 茅台酒营收 (亿元): 1,458 (2024年); 系列酒营收 (亿元): 246 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司净利润率首次突破50%，显示其在高端白酒市场的绝对领导地位。基酒减产是维持稀缺性的战略。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.35 (2024年); 五粮液 (库存周转率): 0.92 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司净利润率首次突破50%，营收持续增长，进一步巩固其行业领导地位和利润分配权。",
+      "data_snippet": "净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年公司发布上市23年来的首次注销式回购方案（30-60亿元），标志着从“现金储蓄者”转向更积极的“股东价值管理者”。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司净现金流持续强劲，现金与存货达到历史峰值，资产负债率极低，无有息负债。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,150* (2024年); 存货账面价值 (亿元): 465 (2024年); 资产负债率 (%): 13.5% (2024年); 有息负债 (亿元): 0 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-03-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2024年经营现金流预计持续强劲，FCF强大，OCF/净利润接近1。",
+      "data_snippet": "OCF (经营现金流): 810* (2024E); CapEx (资本开支): 45* (2024E); FCF (自由现金流): 765* (2024E); OCF/净利润: ~0.94 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2024年公司净利首破50%，营收持续增长，但全国白酒总产量探底，行业进入存量竞争。",
+      "data_snippet": "全国白酒总产量 (万吨): 449 (2024年); 营业总收入 (亿元): 1,709 (2024年); PARENT_NETPROFIT: 1.763035e+10 (2024年第二季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2024年飞天茅台出厂价维持在1169元，净利润率首次突破50%，主要得益于渠道扁平化和直销比例提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2024年); 净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "branding_power",
+      "text_evidence": "净利润率首次突破50%，显示茅台品牌强大的溢价能力和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2024年基酒产量同比下降1.57%，是茅台管理层为了“释放供给稀缺预期”，维持市场价格刚性的主动调减策略。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2024年基酒减产是公司战略转向的信号，从“量增”到“价增”，通过产品结构调整和渠道回收提升利润。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年); 茅台酒营收 (亿元): 1,458 (2024年); 系列酒营收 (亿元): 246 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司净利润率首次突破50%，显示其在高端白酒市场的绝对领导地位。基酒减产是维持稀缺性的战略。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.35 (2024年); 五粮液 (库存周转率): 0.92 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司净利润率首次突破50%，营收持续增长，进一步巩固其行业领导地位和利润分配权。",
+      "data_snippet": "净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年公司发布上市23年来的首次注销式回购方案（30-60亿元），标志着从“现金储蓄者”转向更积极的“股东价值管理者”。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司净现金流持续强劲，现金与存货达到历史峰值，资产负债率极低，无有息负债。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,150* (2024年); 存货账面价值 (亿元): 465 (2024年); 资产负债率 (%): 13.5% (2024年); 有息负债 (亿元): 0 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-06-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2024年经营现金流预计持续强劲，FCF强大，OCF/净利润接近1。",
+      "data_snippet": "OCF (经营现金流): 810* (2024E); CapEx (资本开支): 45* (2024E); FCF (自由现金流): 765* (2024E); OCF/净利润: ~0.94 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2024年公司净利首破50%，营收持续增长，但全国白酒总产量探底，行业进入存量竞争。",
+      "data_snippet": "全国白酒总产量 (万吨): 449 (2024年); 营业总收入 (亿元): 1,709 (2024年); PARENT_NETPROFIT: 1.913194e+10 (2024年第三季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2024年飞天茅台出厂价维持在1169元，净利润率首次突破50%，主要得益于渠道扁平化和直销比例提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2024年); 净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "branding_power",
+      "text_evidence": "净利润率首次突破50%，显示茅台品牌强大的溢价能力和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2024年基酒产量同比下降1.57%，是茅台管理层为了“释放供给稀缺预期”，维持市场价格刚性的主动调减策略。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2024年基酒减产是公司战略转向的信号，从“量增”到“价增”，通过产品结构调整和渠道回收提升利润。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年); 茅台酒营收 (亿元): 1,458 (2024年); 系列酒营收 (亿元): 246 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司净利润率首次突破50%，显示其在高端白酒市场的绝对领导地位。基酒减产是维持稀缺性的战略。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.35 (2024年); 五粮液 (库存周转率): 0.92 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "industry_position",
+      "text_evidence": "公司净利润率首次突破50%，营收持续增长，进一步巩固其行业领导地位和利润分配权。",
+      "data_snippet": "净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年公司发布上市23年来的首次注销式回购方案（30-60亿元），标志着从“现金储蓄者”转向更积极的“股东价值管理者”。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司净现金流持续强劲，现金与存货达到历史峰值，资产负债率极低，无有息负债。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,150* (2024年); 存货账面价值 (亿元): 465 (2024年); 资产负债率 (%): 13.5% (2024年); 有息负债 (亿元): 0 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-09-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2024年经营现金流预计持续强劲，FCF强大，OCF/净利润接近1。",
+      "data_snippet": "OCF (经营现金流): 7.799552e+09 (2024年第三季度); CapEx (资本开支): 45* (2024E); FCF (自由现金流): 765* (2024E); OCF/净利润: ~0.94 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2024年公司净利首破50%，营收持续增长，但全国白酒总产量探底，行业进入存量竞争。",
+      "data_snippet": "全国白酒总产量 (万吨): 449 (2024年); 营业总收入 (亿元): 1,709 (2024年); PARENT_NETPROFIT: 2.540059e+10 (2024年第四季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2024年飞天茅台出厂价维持在1169元，净利润率首次突破50%，主要得益于渠道扁平化和直销比例提升。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2024年); 净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "branding_power",
+      "text_evidence": "净利润率首次突破50%，显示茅台品牌强大的溢价能力和市场认可度。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2024年基酒产量同比下降1.57%，是茅台管理层为了“释放供给稀缺预期”，维持市场价格刚性的主动调减策略。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2024年基酒减产是公司战略转向的信号，从“量增”到“价增”，通过产品结构调整和渠道回收提升利润。",
+      "data_snippet": "基酒产量 (万吨): 5.63 (2024年); 茅台酒营收 (亿元): 1,458 (2024年); 系列酒营收 (亿元): 246 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "公司净利润率首次突破50%，显示其在高端白酒市场的绝对领导地位。基酒减产是维持稀缺性的战略。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.35 (2024年); 五粮液 (库存周转率): 0.92 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "industry_position",
+      "text_evidence": "公司净利润率首次突破50%，营收持续增长，进一步巩固其行业领导地位和利润分配权。",
+      "data_snippet": "净利润率 (%): 50.4% (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年公司发布上市23年来的首次注销式回购方案（30-60亿元），标志着从“现金储蓄者”转向更积极的“股东价值管理者”。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司净现金流持续强劲，现金与存货达到历史峰值，资产负债率极低，无有息负债。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,150* (2024年); 存货账面价值 (亿元): 465 (2024年); 资产负债率 (%): 13.5% (2024年); 有息负债 (亿元): 0 (2024年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2024-12-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "2024年经营现金流预计持续强劲，FCF强大，OCF/净利润接近1。",
+      "data_snippet": "OCF (经营现金流): 4.804231e+10 (2024年第四季度); CapEx (资本开支): 45* (2024E); FCF (自由现金流): 765* (2024E); OCF/净利润: ~0.94 (2024E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2025年预计增速换挡至个位数，全国白酒总产量企稳在400万吨左右，茅台仍将通过“挤占”而非“扩容”实现增长。",
+      "data_snippet": "全国白酒总产量 (万吨): 420* (2025E); 营业总收入 (亿元): 1,850* (2025E); PARENT_NETPROFIT: 2.684747e+10 (2025年第一季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2025年飞天茅台出厂价维持在1169元，但i茅台直销模式和非标产品销售权回收，将持续拉动毛利率和利润转化率。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2025E); 净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台用户数突破7600万，非标产品销售额占比提升，公司试图通过i茅台培养年轻人对酱香的“品牌心智”，但用户认为其核心仍是社交礼仪。",
+      "data_snippet": "i茅台注册用户数: 7600万+ (截至2025年底)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2025年i茅台实现酒类不含税收入约235亿-250亿元，营收占比提升至13%左右，显示管理层在直销化战略上的执行力。",
+      "data_snippet": "i茅台酒类不含税收入 (亿元): 235-250 (2025年全年); i茅台营收占比: 13% (2025年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台回收“非标”销售权，在1499元之上构建2499元（生肖）和3299元（精品）两个价格堡垒，是应对消费降级、提升利润的战略。",
+      "data_snippet": "茅台酒营收 (亿元): 1,560* (2025E); 系列酒营收 (亿元): 280* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "2025年茅台1935营收预计超150亿，持续挤占五粮液普五和国窖1573的市场份额，显示其跨价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.32 (2025E); 五粮液 (库存周转率): 0.82 (2025E); 茅台 1935 营收: 150亿+ (2025年估计)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "industry_position",
+      "text_evidence": "2025年茅台净利润率预计仍接近50%，i茅台和1935的成功进一步巩固其在白酒行业的利润占有率和领导地位。",
+      "data_snippet": "净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年回购方案已基本实施完毕，市场预期茅台有望建立常态化回购机制，持续回报股东。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E，已基本实施完毕)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "2025年现金与存货预计达到历史峰值，资产负债率极低，无有息负债，显示极强的财务健康。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,300* (2025E); 存货账面价值 (亿元): 510* (2025E); 资产负债率 (%): 13.0%* (2025E); 有息负债 (亿元): 0 (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-03-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "公司持续保持强劲的经营现金流和自由现金流，无需再投资、无债务依赖，是完美的“现金奶牛”。",
+      "data_snippet": "NETCASH_OPERATE: 8.809196e+09 (2025年第一季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2025年预计增速换挡至个位数，全国白酒总产量企稳在400万吨左右，茅台仍将通过“挤占”而非“扩容”实现增长。",
+      "data_snippet": "全国白酒总产量 (万吨): 420* (2025E); 营业总收入 (亿元): 1,850* (2025E); PARENT_NETPROFIT: 1.855549e+10 (2025年第二季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2025年飞天茅台出厂价维持在1169元，但i茅台直销模式和非标产品销售权回收，将持续拉动毛利率和利润转化率。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2025E); 净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台用户数突破7600万，非标产品销售额占比提升，公司试图通过i茅台培养年轻人对酱香的“品牌心智”，但用户认为其核心仍是社交礼仪。",
+      "data_snippet": "i茅台注册用户数: 7600万+ (截至2025年底)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2025年i茅台实现酒类不含税收入约235亿-250亿元，营收占比提升至13%左右，显示管理层在直销化战略上的执行力。",
+      "data_snippet": "i茅台酒类不含税收入 (亿元): 235-250 (2025年全年); i茅台营收占比: 13% (2025年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台回收“非标”销售权，在1499元之上构建2499元（生肖）和3299元（精品）两个价格堡垒，是应对消费降级、提升利润的战略。",
+      "data_snippet": "茅台酒营收 (亿元): 1,560* (2025E); 系列酒营收 (亿元): 280* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "2025年茅台1935营收预计超150亿，持续挤占五粮液普五和国窖1573的市场份额，显示其跨价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.32 (2025E); 五粮液 (库存周转率): 0.82 (2025E); 茅台 1935 营收: 150亿+ (2025年估计)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "industry_position",
+      "text_evidence": "2025年茅台净利润率预计仍接近50%，i茅台和1935的成功进一步巩固其在白酒行业的利润占有率和领导地位。",
+      "data_snippet": "净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年回购方案已基本实施完毕，市场预期茅台有望建立常态化回购机制，持续回报股东。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E，已基本实施完毕)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "2025年现金与存货预计达到历史峰值，资产负债率极低，无有息负债，显示极强的财务健康。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,300* (2025E); 存货账面价值 (亿元): 510* (2025E); 资产负债率 (%): 13.0%* (2025E); 有息负债 (亿元): 0 (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-06-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "公司持续保持强劲的经营现金流和自由现金流，无需再投资、无债务依赖，是完美的“现金奶牛”。",
+      "data_snippet": "NETCASH_OPERATE: 4.309865e+09 (2025年第二季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "market_potential",
+      "text_evidence": "2025年预计增速换挡至个位数，全国白酒总产量企稳在400万吨左右，茅台仍将通过“挤占”而非“扩容”实现增长。",
+      "data_snippet": "全国白酒总产量 (万吨): 420* (2025E); 营业总收入 (亿元): 1,850* (2025E); PARENT_NETPROFIT: 1.922378e+10 (2025年第三季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "pricing_power",
+      "text_evidence": "2025年飞天茅台出厂价维持在1169元，但i茅台直销模式和非标产品销售权回收，将持续拉动毛利率和利润转化率。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2025E); 净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台用户数突破7600万，非标产品销售额占比提升，公司试图通过i茅台培养年轻人对酱香的“品牌心智”，但用户认为其核心仍是社交礼仪。",
+      "data_snippet": "i茅台注册用户数: 7600万+ (截至2025年底)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "management_quality",
+      "text_evidence": "2025年i茅台实现酒类不含税收入约235亿-250亿元，营收占比提升至13%左右，显示管理层在直销化战略上的执行力。",
+      "data_snippet": "i茅台酒类不含税收入 (亿元): 235-250 (2025年全年); i茅台营收占比: 13% (2025年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台回收“非标”销售权，在1499元之上构建2499元（生肖）和3299元（精品）两个价格堡垒，是应对消费降级、提升利润的战略。",
+      "data_snippet": "茅台酒营收 (亿元): 1,560* (2025E); 系列酒营收 (亿元): 280* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "competitive_position",
+      "text_evidence": "2025年茅台1935营收预计超150亿，持续挤占五粮液普五和国窖1573的市场份额，显示其跨价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.32 (2025E); 五粮液 (库存周转率): 0.82 (2025E); 茅台 1935 营收: 150亿+ (2025年估计)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "industry_position",
+      "text_evidence": "2025年茅台净利润率预计仍接近50%，i茅台和1935的成功进一步巩固其在白酒行业的利润占有率和领导地位。",
+      "data_snippet": "净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年回购方案已基本实施完毕，市场预期茅台有望建立常态化回购机制，持续回报股东。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E，已基本实施完毕)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "2025年现金与存货预计达到历史峰值，资产负债率极低，无有息负债，显示极强的财务健康。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,300* (2025E); 存货账面价值 (亿元): 510* (2025E); 资产负债率 (%): 13.0%* (2025E); 有息负债 (亿元): 0 (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-09-30",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "公司持续保持强劲的经营现金流和自由现金流，无需再投资、无债务依赖，是完美的“现金奶牛”。",
+      "data_snippet": "NETCASH_OPERATE: 2.507774e+10 (2025年第三季度)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2025年预计增速换挡至个位数，全国白酒总产量企稳在400万吨左右，茅台仍将通过“挤占”而非“扩容”实现增长。",
+      "data_snippet": "全国白酒总产量 (万吨): 420* (2025E); 营业总收入 (亿元): 1,850* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "2025年飞天茅台出厂价维持在1169元，但i茅台直销模式和非标产品销售权回收，将持续拉动毛利率和利润转化率。",
+      "data_snippet": "飞天茅台出厂价 (元): 1,169 (2025E); 净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "branding_power",
+      "text_evidence": "i茅台用户数突破7600万，非标产品销售额占比提升，公司试图通过i茅台培养年轻人对酱香的“品牌心智”，但用户认为其核心仍是社交礼仪。",
+      "data_snippet": "i茅台注册用户数: 7600万+ (截至2025年底)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2025年i茅台实现酒类不含税收入约235亿-250亿元，营收占比提升至13%左右，显示管理层在直销化战略上的执行力。",
+      "data_snippet": "i茅台酒类不含税收入 (亿元): 235-250 (2025年全年); i茅台营收占比: 13% (2025年)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "i茅台回收“非标”销售权，在1499元之上构建2499元（生肖）和3299元（精品）两个价格堡垒，是应对消费降级、提升利润的战略。",
+      "data_snippet": "茅台酒营收 (亿元): 1,560* (2025E); 系列酒营收 (亿元): 280* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "2025年茅台1935营收预计超150亿，持续挤占五粮液普五和国窖1573的市场份额，显示其跨价格带的竞争力。",
+      "data_snippet": "贵州茅台 (库存周转率): 0.32 (2025E); 五粮液 (库存周转率): 0.82 (2025E); 茅台 1935 营收: 150亿+ (2025年估计)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "industry_position",
+      "text_evidence": "2025年茅台净利润率预计仍接近50%，i茅台和1935的成功进一步巩固其在白酒行业的利润占有率和领导地位。",
+      "data_snippet": "净利润率 (%): 49.0%* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "2024年回购方案已基本实施完毕，市场预期茅台有望建立常态化回购机制，持续回报股东。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E，已基本实施完毕)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "2025年现金与存货预计达到历史峰值，资产负债率极低，无有息负债，显示极强的财务健康。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,300* (2025E); 存货账面价值 (亿元): 510* (2025E); 资产负债率 (%): 13.0%* (2025E); 有息负债 (亿元): 0 (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2025-12-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "公司持续保持强劲的经营现金流和自由现金流，无需再投资、无债务依赖，是完美的“现金奶牛”。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "market_potential",
+      "text_evidence": "2026年进入放量期，可供售卖的飞天茅台成品酒将有显著增量。全国白酒总产量预计在400万吨左右寻找新平衡。",
+      "data_snippet": "成品酒销量 (万吨): 5.20* (2026E); 全国白酒总产量 (万吨): 420* (2025E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "pricing_power",
+      "text_evidence": "自2026年3月31日起，飞天53%vol 500ml贵州茅台酒销售合同价由1169元/瓶调整为1269元/瓶，自营体系零售价同步上调，为近两年半来首次出厂价调整。",
+      "data_snippet": "飞天53%vol 500ml贵州茅台酒销售合同价由1169元/瓶调整为1269元/瓶 (2026-03-31)",
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "branding_power",
+      "text_evidence": "2026年春节期间，飞天茅台散瓶价迅速拉升至1,800元附近，说明民间的“恐慌性抛售”已经停止，品牌金融属性的“冰层”开始消融。",
+      "data_snippet": "飞天茅台 (2026散瓶) 批价: 约 1,790 元 (2026年春节全国均价)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "management_quality",
+      "text_evidence": "2026年初，茅台已宣布非标产品全面实行“代销制”，线下店仅作为配送点并提取5%佣金，意味着非标产品定价权和利润大头已彻底收归i茅台。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "strategy_soundness",
+      "text_evidence": "2026年茅台敢于推行“回归金字塔”结构，因为塔基（普通飞天）的弹药充足。未来增长逻辑将从“量增”到“价增”，增加“精品、生肖、陈年”占比。",
+      "data_snippet": "成品酒销量 (万吨): 5.20* (2026E)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "competitive_position",
+      "text_evidence": "2026年春节期间，五粮液的宴席场次增长超100%，社会库存出清，老二弹性正在积蓄。茅台的提价为整个行业撑开了“安全伞”。",
+      "data_snippet": "飞天茅台 (2026散瓶) 批价: 约 1,790 元 (2026年春节全国均价); 五粮液普五 (八代) 批价: 约 940 元 (2026年春节全国均价)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "industry_position",
+      "text_evidence": "2026年茅台的出厂价上调，为整个行业提供了价格支撑，巩固了其行业领导地位和定价权。",
+      "data_snippet": "飞天53%vol 500ml贵州茅台酒销售合同价由1169元/瓶调整为1269元/瓶 (2026-03-31)",
+      "source": "news_digest",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "shareholder_reward",
+      "text_evidence": "截至2026年初，60亿回购已基本实施完毕，管理层承认回购比单纯存银行更有利于股东，市场预期有望建立常态化回购机制。",
+      "data_snippet": "回购/融资: 回购30-60亿 (2024E，已基本实施完毕)",
+      "source": "analyst_note",
+      "confidence": "high"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "balance_sheet_health",
+      "text_evidence": "公司现金与存货预计达到历史峰值，资产负债率极低，无有息负债，财务状况极其健康。",
+      "data_snippet": "货币资金+拆出资金 (亿元): 2,300* (2025E); 存货账面价值 (亿元): 510* (2025E); 资产负债率 (%): 13.0%* (2025E); 有息负债 (亿元): 0 (2025E)",
+      "source": "analyst_note",
+      "confidence": "medium"
+    },
+    {
+      "period_end": "2026-03-31",
+      "factor_id": "cash_flow_health",
+      "text_evidence": "公司持续保持强劲的经营现金流和自由现金流，无需再投资、无债务依赖，是完美的“现金奶牛”。",
+      "data_snippet": null,
+      "source": "analyst_note",
+      "confidence": "medium"
+    }
+  ],
+  "notes_for_human": "数据主要来自基本面分析文档中的表格和文本，部分季度数据来自财报摘要。对于无单独季度表述的历史季度，text_evidence/data_snippet 采用年度视角并注明。2025E和2026E数据来自分析文档中的预测。2026-03-31的定价权信息来自新闻摘要。"
+}

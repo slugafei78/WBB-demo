@@ -1,0 +1,29 @@
+{
+  "schema_version": "2026-04-05",
+  "doc": "财报衍生指标的精确定义 variant（D/E、FCF 等），供 ingestion 与估值核解析；与 fundamental_factors.json 中的 quantitative 因子交叉引用。",
+  "defaults": {
+    "debt_to_equity_variant": "total_debt_to_book_equity",
+    "free_cash_flow_variant": "fcfe"
+  },
+  "variants": {
+    "debt_to_equity": {
+      "total_debt_to_book_equity": {
+        "description": "Total debt / Book equity (期末合并)",
+        "numerator": "total_debt",
+        "denominator": "total_stockholder_equity"
+      }
+    },
+    "free_cash_flow": {
+      "fcfe": {
+        "description": "股权自由现金流（简化定义，实现时绑定公式 ID）"
+      },
+      "fcff": {
+        "description": "企业自由现金流"
+      }
+    }
+  },
+  "feature_switches": {
+    "compute_fm": false,
+    "comment": "可扩展；与 docs/DESIGN.md FR-METRIC 一致"
+  }
+}

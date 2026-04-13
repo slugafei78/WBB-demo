@@ -1,0 +1,26 @@
+{
+  "FR.INR.DPST": {
+    "indicator_name": "Deposit interest rate (%)",
+    "unit": "%",
+    "periodicity": "Annual",
+    "long_definition": "Deposit interest rate is the rate paid by commercial or similar banks for demand, time, or savings deposits. The terms and conditions attached to these rates differ by country, however, limiting their comparability. This indicator is expressed as a percentage (a鱞)*100."
+  },
+  "FR.INR.LEND": {
+    "indicator_name": "Lending interest rate (%)",
+    "unit": "%",
+    "periodicity": "Annual",
+    "long_definition": "Lending rate is the bank rate that usually meets the short- and medium-term financing needs of the private sector. This rate is normally differentiated according to creditworthiness of borrowers and objectives of financing. The terms and conditions attached to these rates differ by country, however, limiting their comparability. This indicator is expressed as a percentage (a鱞)*100."
+  },
+  "FP.CPI.TOTL": {
+    "indicator_name": "Consumer price index (2010 = 100)",
+    "unit": "index (2010 = 100)",
+    "periodicity": "Annual",
+    "long_definition": "Index of the prices of consumption goods and services, as compared to a certain reference period (2010=100)."
+  },
+  "NY.GDP.MKTP.CN": {
+    "indicator_name": "GDP (current LCU)",
+    "unit": "current LCU",
+    "periodicity": "Annual",
+    "long_definition": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This series is expressed in local currency units."
+  }
+}

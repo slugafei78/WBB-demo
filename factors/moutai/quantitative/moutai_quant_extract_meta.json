@@ -1,0 +1,76 @@
+{
+  "output_csv": "factors\\moutai\\quantitative\\moutai_fundamental_quant_quarterly.csv",
+  "lookback_years": 5,
+  "cutoff_date_approx": "2021-04-05",
+  "pdf_text_files": [
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10k-2021.txt",
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10k-2022.txt",
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10k-2023.txt",
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10k-2024.txt",
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10Q-2025Q1.txt",
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10Q-2025Q2.txt",
+    "data\\moutai\\raw\\financials\\_extracted_text\\moutai-10Q-2025Q3.txt"
+  ],
+  "factor_notes": {
+    "net_income": "quarterly_income_stmt Net Income 类行",
+    "net_profit_attributable": "与 net_income 同源行（Yahoo 口径）",
+    "gross_profit": "Gross Profit / 毛利类行",
+    "operating_profit": "Operating Income / EBIT 类行",
+    "debt_to_equity": "Total Debt / Total Stockholder Equity",
+    "free_cash_flow": "Operating Cash Flow - |CapEx| 近似",
+    "capex": "Capital Expenditure / PPE 等（绝对值）"
+  },
+  "eastmoney": {
+    "load_mode": "data_csv",
+    "profit_csv": "C:\\Users\\PC\\Projects\\wbb-demo\\data\\moutai\\raw\\financials\\em\\profit_sheet_quarterly_em.csv",
+    "cashflow_csv": "C:\\Users\\PC\\Projects\\wbb-demo\\data\\moutai\\raw\\financials\\em\\cash_flow_sheet_quarterly_em.csv",
+    "balance_csv": "C:\\Users\\PC\\Projects\\wbb-demo\\data\\moutai\\raw\\financials\\em\\balance_sheet_by_report_em.csv",
+    "profit_shape": [
+      95,
+      204
+    ],
+    "profit_date_col": "REPORT_DATE",
+    "cashflow_shape": [
+      91,
+      253
+    ],
+    "cashflow_date_col": "REPORT_DATE",
+    "balance_shape": [
+      100,
+      319
+    ],
+    "balance_date_col": "REPORT_DATE",
+    "balance_liab_col": "TOTAL_LIABILITIES",
+    "balance_equity_col": "PARENT_EQUITY_BALANCE",
+    "eastmoney_row_count": 108
+  },
+  "akshare_sina": {
+    "利润表_shape": [
+      100,
+      83
+    ],
+    "利润表_parse": "row_per_period",
+    "现金流量表_shape": [
+      96,
+      71
+    ],
+    "现金流量表_parse": "row_per_period",
+    "资产负债表_shape": [
+      100,
+      147
+    ],
+    "资产负债表_parse": "row_per_period",
+    "akshare_row_count": 108
+  },
+  "rows": 126,
+  "rows_by_source": {
+    "akshare": 18,
+    "eastmoney_quarterly": 108
+  },
+  "manual_quarterly_csv": "data/moutai/raw/financials/quarterly_financials_manual.csv",
+  "net_profit_quarterly_csv": "data/moutai/raw/financials/net_profit_quarterly.csv",
+  "em_profit_quarterly_csv": "data/moutai/raw/financials/em/profit_sheet_quarterly_em.csv",
+  "em_cashflow_quarterly_csv": "data/moutai/raw/financials/em/cash_flow_sheet_quarterly_em.csv",
+  "em_balance_report_csv": "data/moutai/raw/financials/em/balance_sheet_by_report_em.csv",
+  "prefer_em_downloaded_csv": true
+}

@@ -1,0 +1,22 @@
+{
+  "output_dir": "factors\\macro\\series",
+  "encoding_used_data_csv": "utf-8-sig",
+  "series_written": 7,
+  "stems": [
+    "macro_CHN_FP_CPI_TOTL",
+    "macro_CHN_FR_INR_DPST",
+    "macro_CHN_FR_INR_LEND",
+    "macro_CHN_NY_GDP_MKTP_CN",
+    "macro_USA_FP_CPI_TOTL",
+    "macro_USA_FR_INR_LEND",
+    "macro_USA_NY_GDP_MKTP_CN"
+  ],
+  "skipped": [
+    "NAC/FR.INR.DPST (无有效年度值)",
+    "NAC/FR.INR.LEND (无有效年度值)",
+    "NAC/FP.CPI.TOTL (无有效年度值)",
+    "NAC/NY.GDP.MKTP.CN (无有效年度值)",
+    "USA/FR.INR.DPST (无有效年度值)"
+  ],
+  "indicator_catalog_codes": 4
+}

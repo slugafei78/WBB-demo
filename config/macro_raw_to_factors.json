@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "doc": "将 data/macro 下自下载的宏观 CSV 转为 factors/macro/series 季度因子序列。",
+  "input_data_csv": "data/macro/raw/Macro-indicators.csv",
+  "input_metadata_csv": "data/macro/raw/Macro-indicators - Metadata.csv",
+  "input_encoding": null,
+  "comment_input_encoding": "若自动探测仍失败，可设为 \"gbk\" 或 \"utf-8-sig\" 强制使用；null 表示按 utf-8→gbk→… 依次尝试。",
+  "output_dir": "factors/macro/series",
+  "quarterly_mode": "repeat_annual_value",
+  "comment_quarterly_mode": "源数据为年度时，将当年官方值复制到该年四个季度末（03-31,06-30,09-30,12-31），便于与日/季频因子对齐。"
+}

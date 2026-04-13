@@ -1,0 +1,127 @@
+{
+  "schema_version": "2026-04-13",
+  "doc": "全局基本面因子池（适用于各标的 slug，非宏观）。标准 JSON 不支持行内 // 注释；解释性文字放在 qualitative 下的 interpretation_* 字段。定性量纲见 qualitative.score_*。增删因子请改本文件并递增 schema_version 或记 CHANGELOG。",
+  "qualitative": {
+    "score_min": 0,
+    "score_max": 10,
+    "score_step": 0.5,
+    "interpretation_longitudinal_zh": "每个定性因子对单只个股均为时间序列：按报告期/季度（或你约定的频率）各有一条打分。除当期分值外，更应关注序列的形态与变化（趋势、拐点、波动与事件对齐），变化往往比单点绝对值更有信息价值。此为纵向维度。",
+    "interpretation_longitudinal_en": "Each qualitative factor is a time series per ticker (one score per reporting period). Changes in the series often matter more than a single level; this is the longitudinal dimension.",
+    "interpretation_cross_sectional_zh": "打分的绝对水平应在横向可比框架内解读：与同业、产业链位置或行业基准对照，体现相对竞争力与结构性差异。此为横向维度；若仅有单公司序列，结论宜标注可比性不足。",
+    "interpretation_cross_sectional_en": "Score levels should be read in a cross-sectional frame (vs peers or industry benchmarks) as relative competitiveness; pure time series without peers weakens horizontal inference.",
+    "interpretation_evidence_mapping_zh": "打分与原始材料（新闻、公告、财报表、调研笔记等）为 M:N 关系：一条打分可由多条原始证据共同支撑；同一条原始材料也可能同时影响多个因子的判断。流水线与 LLM 输出应保留可追溯引用，避免一对一臆造。",
+    "interpretation_evidence_mapping_en": "Scores and raw evidence form an M:N mapping: one score aggregates multiple sources; one source may inform multiple factors. Outputs should keep auditable citations.",
+    "factors": [
+      {
+        "factor_id": "market_potential",
+        "display_name_en": "Market potential",
+        "display_name_zh": "市场潜力 / 空间（TAM 与渗透）"
+      },
+      {
+        "factor_id": "pricing_power",
+        "display_name_en": "Pricing power",
+        "display_name_zh": "提价权 / 定价权"
+      },
+      {
+        "factor_id": "branding_power",
+        "display_name_en": "Brand strength",
+        "display_name_zh": "品牌力"
+      },
+      {
+        "factor_id": "management_quality",
+        "display_name_en": "Management quality & incentives",
+        "display_name_zh": "管理层能力与激励相容"
+      },
+      {
+        "factor_id": "strategy_soundness",
+        "display_name_en": "Strategic soundness",
+        "display_name_zh": "战略合理性 / 执行度"
+      },
+      {
+        "factor_id": "competitive_position",
+        "display_name_en": "Competitive position",
+        "display_name_zh": "竞争地位"
+      },
+      {
+        "factor_id": "industry_position",
+        "display_name_en": "Industry position",
+        "display_name_zh": "产业地位 / 产业链位置"
+      },
+      {
+        "factor_id": "shareholder_reward",
+        "display_name_en": "Shareholder returns policy",
+        "display_name_zh": "股东回报（分红、回购、再投资平衡）"
+      },
+      {
+        "factor_id": "balance_sheet_health",
+        "display_name_en": "Balance sheet health",
+        "display_name_zh": "资产负债表健康度"
+      },
+      {
+        "factor_id": "cash_flow_health",
+        "display_name_en": "Cash flow health",
+        "display_name_zh": "现金流健康度 / 盈利质量"
+      }
+    ]
+  },
+  "quantitative": {
+    "factors": [
+      {
+        "factor_id": "net_income",
+        "display_name_en": "Net income",
+        "display_name_zh": "净利润 / 净收益",
+        "value_type": "currency",
+        "typical_frequency": "quarterly",
+        "notes": "与 net_profit 实务常混用；建模时与 net_profit_attributable 二选一避免重复计权"
+      },
+      {
+        "factor_id": "net_profit_attributable",
+        "display_name_en": "Net profit attributable to owners",
+        "display_name_zh": "归母净利润",
+        "value_type": "currency",
+        "typical_frequency": "quarterly",
+        "notes": "A 股常用口径"
+      },
+      {
+        "factor_id": "gross_profit",
+        "display_name_en": "Gross profit",
+        "display_name_zh": "毛利润",
+        "value_type": "currency",
+        "typical_frequency": "quarterly",
+        "notes": "收入减营业成本；与 net_income 区分"
+      },
+      {
+        "factor_id": "operating_profit",
+        "display_name_en": "Operating profit / operating income",
+        "display_name_zh": "营业利润",
+        "value_type": "currency",
+        "typical_frequency": "quarterly",
+        "notes": "与 EBIT 口径依报表可能略有差异"
+      },
+      {
+        "factor_id": "debt_to_equity",
+        "display_name_en": "Debt-to-equity ratio (D/E)",
+        "display_name_zh": "负债权益比",
+        "value_type": "ratio",
+        "typical_frequency": "quarterly",
+        "notes": "分子分母定义见 global_metrics.json（待与财报 variant 对齐）"
+      },
+      {
+        "factor_id": "free_cash_flow",
+        "display_name_en": "Free cash flow (FCF)",
+        "display_name_zh": "自由现金流",
+        "value_type": "currency",
+        "typical_frequency": "quarterly",
+        "notes": "需区分 FCFF / FCFE，见 global_metrics.json"
+      },
+      {
+        "factor_id": "capex",
+        "display_name_en": "Capital expenditures (CapEx)",
+        "display_name_zh": "资本性支出",
+        "value_type": "currency",
+        "typical_frequency": "quarterly",
+        "notes": "现金流量表投资活动"
+      }
+    ]
+  }
+}
