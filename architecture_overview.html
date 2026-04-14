@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>WBB-Demo Architecture Overview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0f1117; color: #e0e0e0; font-family: 'Segoe UI', system-ui, sans-serif; padding: 32px; }
+  h1 { text-align: center; font-size: 28px; color: #fff; margin-bottom: 6px; letter-spacing: 1px; }
+  .subtitle { text-align: center; font-size: 14px; color: #888; margin-bottom: 36px; }
+
+  .canvas { max-width: 1200px; margin: 0 auto; position: relative; }
+
+  /* ---- Layer rows ---- */
+  .layer { display: flex; gap: 16px; align-items: stretch; margin-bottom: 20px; position: relative; }
+  .layer-label {
+    writing-mode: vertical-rl; text-orientation: mixed;
+    background: #1a1d27; border-radius: 8px; padding: 12px 8px;
+    font-weight: 700; font-size: 13px; letter-spacing: 2px; color: #aaa;
+    display: flex; align-items: center; justify-content: center; min-width: 38px;
+  }
+  .layer-content { flex: 1; display: flex; gap: 14px; flex-wrap: wrap; }
+
+  /* ---- Cards ---- */
+  .card {
+    background: #1a1d27; border: 1px solid #2a2d37; border-radius: 12px;
+    padding: 18px 20px; flex: 1; min-width: 220px; position: relative;
+    transition: border-color .2s;
+  }
+  .card:hover { border-color: #4a8cff44; }
+  .card h3 { font-size: 15px; margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+  .card ul { list-style: none; font-size: 12.5px; color: #aaa; line-height: 1.8; }
+  .card ul li::before { content: '›'; margin-right: 6px; color: #555; }
+
+  .tag {
+    display: inline-block; font-size: 10px; padding: 2px 8px;
+    border-radius: 10px; font-weight: 600; letter-spacing: .5px;
+  }
+
+  /* Color palette per layer */
+  .t-data   { background: #1b3a2a; color: #4ade80; border-color: #22543d; }
+  .t-factor { background: #1a2744; color: #60a5fa; border-color: #1e3a5f; }
+  .t-synth  { background: #2d1f3d; color: #c084fc; border-color: #44337a; }
+  .t-val    { background: #3b2415; color: #fb923c; border-color: #5a3520; }
+  .t-output { background: #3b1525; color: #f472b6; border-color: #5a2035; }
+
+  .card.data   { border-left: 3px solid #4ade80; }
+  .card.factor { border-left: 3px solid #60a5fa; }
+  .card.synth  { border-left: 3px solid #c084fc; }
+  .card.val    { border-left: 3px solid #fb923c; }
+  .card.output { border-left: 3px solid #f472b6; }
+
+  /* ---- Arrows between layers ---- */
+  .arrow-row {
+    display: flex; justify-content: center; margin: 4px 0 4px 54px;
+    font-size: 22px; color: #444; letter-spacing: 24px;
+  }
+
+  /* ---- Legend ---- */
+  .legend {
+    margin-top: 28px; display: flex; gap: 24px; justify-content: center;
+    flex-wrap: wrap; font-size: 12px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  /* ---- Flow annotation ---- */
+  .flow-note {
+    position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+    font-size: 11px; color: #555; writing-mode: vertical-rl;
+    letter-spacing: 1px;
+  }
+
+  /* ---- Ticker badges ---- */
+  .tickers {
+    text-align: center; margin-bottom: 24px;
+    display: flex; gap: 12px; justify-content: center;
+  }
+  .ticker-badge {
+    background: #1a1d27; border: 1px solid #2a2d37; border-radius: 20px;
+    padding: 6px 16px; font-size: 12px; font-weight: 600;
+  }
+
+  /* ---- Formula box ---- */
+  .formula-box {
+    background: #12141c; border: 1px dashed #333; border-radius: 10px;
+    padding: 14px 24px; text-align: center; margin: 0 0 28px 0;
+    font-size: 15px; letter-spacing: .5px;
+  }
+  .formula-box .math { color: #facc15; font-weight: 700; font-size: 18px; }
+  .formula-box .desc { color: #777; font-size: 12px; margin-top: 4px; }
+</style>
+</head>
+<body>
+
+<h1>WBB-Demo &mdash; Value Investment Agent</h1>
+<p class="subtitle">Neuro-Symbolic Intrinsic Value Calibration System &middot; Architecture Overview</p>
+
+<div class="canvas">
+
+<!-- Ticker badges -->
+<div class="tickers">
+  <span class="ticker-badge" style="color:#4ade80">KO (Coca-Cola)</span>
+  <span class="ticker-badge" style="color:#60a5fa">600519.SS (贵州茅台)</span>
+  <span class="ticker-badge" style="color:#fb923c">TXRH (Texas Roadhouse)</span>
+</div>
+
+<!-- Core formula -->
+<div class="formula-box">
+  <div class="math">Pt = Fi (Intrinsic Value) + Fm (Market Offset)</div>
+  <div class="desc">Fi = 符号化估值核 (DCF / P/S / PB-ROE) &times; 定性因子调节 &nbsp;|&nbsp; Fm = 神经网络市场偏移 (Phase 2)</div>
+</div>
+
+<!-- ===== Layer 1: Data Ingestion ===== -->
+<div class="layer">
+  <div class="layer-label" style="color:#4ade80">数据采集</div>
+  <div class="layer-content">
+    <div class="card data">
+      <h3><span class="tag t-data">MARKET</span> 交易数据</h3>
+      <ul>
+        <li>Yahoo Finance &rarr; 日线 OHLCV</li>
+        <li>历史价格 Pt 序列</li>
+      </ul>
+    </div>
+    <div class="card data">
+      <h3><span class="tag t-data">FILING</span> 财务报表</h3>
+      <ul>
+        <li>SEC EDGAR (10-K/10-Q)</li>
+        <li>东方财富 (A股季报)</li>
+        <li>利润表 / 资产负债 / 现金流</li>
+      </ul>
+    </div>
+    <div class="card data">
+      <h3><span class="tag t-data">TEXT</span> 文本数据</h3>
+      <ul>
+        <li>Yahoo Finance 新闻摘要</li>
+        <li>MD&A 段落文本</li>
+        <li>人工基本面分析 (.md)</li>
+      </ul>
+    </div>
+    <div class="card data">
+      <h3><span class="tag t-data">MACRO</span> 宏观指标</h3>
+      <ul>
+        <li>World Bank / FRED / akshare</li>
+        <li>利率、GDP、CPI 等</li>
+        <li>宽表 &rarr; 季度序列</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row">▼ ▼ ▼ ▼</div>
+
+<!-- ===== Layer 2: Factor Engineering ===== -->
+<div class="layer">
+  <div class="layer-label" style="color:#60a5fa">因子工程</div>
+  <div class="layer-content">
+    <div class="card factor" style="flex:1.2">
+      <h3><span class="tag t-factor">QUANT</span> 量化因子</h3>
+      <ul>
+        <li>EPS、ROE、D/E、FCF、净利润增速</li>
+        <li>保持原始数值，不标准化</li>
+        <li>输出: *_quant_quarterly.csv</li>
+      </ul>
+    </div>
+    <div class="card factor" style="flex:1.8; border: 1px solid #3b5998;">
+      <h3><span class="tag t-factor">QUAL / LLM</span> 定性因子 (LLM 驱动)</h3>
+      <ul>
+        <li><b>5步子代理流程</b>: 商业模型 &rarr; 财务概览 &rarr; 因子选择 &rarr; 证据矩阵 &rarr; 评分 (1-10)</li>
+        <li><b>简化4因子</b>: 市场潜力 / 定价权 / 品牌力 / 管理质量</li>
+        <li>支持 Gemini / OpenAI / Mock 多 LLM 后端</li>
+        <li>输出: *_qual_quarterly_scores.csv + rationale</li>
+      </ul>
+    </div>
+    <div class="card factor">
+      <h3><span class="tag t-factor">MACRO</span> 宏观因子</h3>
+      <ul>
+        <li>存款利率 &rarr; PE 锚定</li>
+        <li>季度频率对齐</li>
+        <li>输出: macro_{CC}_{series}.csv</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row">▼ ▼ ▼</div>
+
+<!-- ===== Layer 3: Parameter Synthesis ===== -->
+<div class="layer">
+  <div class="layer-label" style="color:#c084fc">参数合成</div>
+  <div class="layer-content">
+    <div class="card synth" style="flex:1">
+      <h3><span class="tag t-synth">RULES</span> 规则合成器</h3>
+      <ul>
+        <li>定性评分 &rarr; 偏离指数 (score - 5.5)</li>
+        <li>调节增长率 &plusmn;1%、WACC &plusmn;0.5%</li>
+        <li>调节估值倍数 &plusmn;15%</li>
+        <li>公式: adj = base &times; (1 + &alpha; &times; dev)</li>
+      </ul>
+    </div>
+    <div class="card synth" style="flex:1">
+      <h3><span class="tag t-synth">ROUTER</span> 估值核路由</h3>
+      <ul>
+        <li>LLM Turn 1: 分析商业模型</li>
+        <li>自动选择最优估值方法</li>
+        <li>DCF / P/S / PB-ROE 三选一</li>
+      </ul>
+    </div>
+    <div class="card synth" style="flex:0.8; opacity: 0.5;">
+      <h3><span class="tag t-synth">MLP</span> 神经合成 <span style="font-size:10px;color:#888">(Phase 2)</span></h3>
+      <ul>
+        <li>可学习参数映射</li>
+        <li>替代规则合成器</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row">▼ ▼ ▼</div>
+
+<!-- ===== Layer 4: Valuation Kernels ===== -->
+<div class="layer">
+  <div class="layer-label" style="color:#fb923c">估值计算</div>
+  <div class="layer-content">
+    <div class="card val">
+      <h3><span class="tag t-val">DCF</span> 现金流折现</h3>
+      <ul>
+        <li>FCF + 增长率 + WACC</li>
+        <li>终值 = FCF&times;(1+g) / (WACC-g)</li>
+        <li>&rarr; 内在价值/股</li>
+      </ul>
+    </div>
+    <div class="card val">
+      <h3><span class="tag t-val">P/S</span> 市销率</h3>
+      <ul>
+        <li>每股销售额 &times; 目标 P/S</li>
+        <li>&rarr; 隐含价格</li>
+      </ul>
+    </div>
+    <div class="card val">
+      <h3><span class="tag t-val">PB-ROE</span> 市净率</h3>
+      <ul>
+        <li>每股净资产 &times; Justified P/B</li>
+        <li>ROE vs 权益成本</li>
+      </ul>
+    </div>
+    <div class="card val">
+      <h3><span class="tag t-val">PE-Macro</span> 市盈率(宏观)</h3>
+      <ul>
+        <li>利率 &rarr; 基础PE (反比)</li>
+        <li>定性乘数: [0.5, 1.2]</li>
+        <li>最终PE &isin; [10, 24]</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="arrow-row">▼ ▼</div>
+
+<!-- ===== Layer 5: Output ===== -->
+<div class="layer">
+  <div class="layer-label" style="color:#f472b6">输出层</div>
+  <div class="layer-content">
+    <div class="card output" style="flex:1.5">
+      <h3><span class="tag t-output">Fi</span> 内在价值序列</h3>
+      <ul>
+        <li>季度 Fi &rarr; 日频前向填充</li>
+        <li>120日移动均线平滑</li>
+        <li>Vanilla Fi + 定性调节 Fi 双线</li>
+        <li>输出: fi_quarterly.csv / intrinsic_quarterly.csv</li>
+      </ul>
+    </div>
+    <div class="card output" style="flex:1.5">
+      <h3><span class="tag t-output">VIZ</span> 可视化 Dashboard</h3>
+      <ul>
+        <li>股价 Pt vs 内在价值 Fi 叠加图</li>
+        <li>偏离度 = (Pt - Fi) / Fi</li>
+        <li>因子时间线 + 审计追踪</li>
+        <li>输出: *_dashboard.png / overlay.png</li>
+      </ul>
+    </div>
+    <div class="card output">
+      <h3><span class="tag t-output">META</span> 可审计元数据</h3>
+      <ul>
+        <li>Prompt hash + chunk ID</li>
+        <li>LLM citations 保留</li>
+        <li>输出: *_meta.json</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</div><!-- canvas -->
+
+<!-- Legend -->
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#4ade80"></div> 数据采集 (ingestion/)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div> 因子工程 (factors/)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#c084fc"></div> 参数合成 (synthesis/)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#fb923c"></div> 估值核 (valuation/)</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#f472b6"></div> 输出 (output)</div>
+</div>
+
+<p style="text-align:center; margin-top:20px; font-size:11px; color:#444;">
+  WBB-Demo &middot; Neuro-Symbolic Value Investment Agent &middot; 5-Layer Architecture
+</p>
+
+</body>
+</html>
